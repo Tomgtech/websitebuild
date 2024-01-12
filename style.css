@@ -65,20 +65,22 @@ h1 {
   word-spacing: 10px;
   color: white;
   background-color: transparent;
-  text-decoration: none;
   margin-top: 30px;
   margin-left: 40px;
 }
 
-nav a {
+a {
   color: white;
-  text-decoration: none;
   font-size: 15px;
   gap: 3.5rem;
   font-weight: bold;
 }
 
-nav a:hover {
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: underline;
 }
 
